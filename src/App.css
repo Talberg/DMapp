@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.dnd-nav {
+  display: flex;
+  background-color: #060202; /* Adjust background color as needed */
+  color: #fff; /* Adjust text color as needed */
+  padding: 10px 20px;
+}
+
+.dnd-nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dnd-nav-link.active {
+  font-weight: bold;
+}
+
+.dnd-nav-icon {
+  margin-right: 5px;
+  /* Add styles for your icons here (size, color, etc.) */
+}

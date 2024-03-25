@@ -1,24 +1,36 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ApiButton from "./comp/ApiButton"
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nav from "./comp/Nav"
+import Start from "./comp/Start"
+import CharacterCreatorForm from './comp/RaceClassPicker';
+import CharInfo from "./comp/CharInfo"
+import DM from "./comp/DM"
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+      
+        <Route path="/" element={<Start></Start>}></Route>
+        <Route path="api" element={<ApiButton></ApiButton>}></Route>
+        <Route path="cc" element={<CharacterCreatorForm></CharacterCreatorForm>}></Route>
+        <Route path="adventure" element={<ApiButton></ApiButton>}></Route>
+        <Route path="ci" element={<CharInfo></CharInfo>}></Route>
+      </Routes>
+    
+    </BrowserRouter>
+    
+    
+    
+
+  
   );
 }
 
