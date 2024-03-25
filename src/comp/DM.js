@@ -24,7 +24,7 @@ function MyComponent({prompt,title}) {
 
   });
 
-  const genAI = new GoogleGenerativeAI("AIzaSyAFsN2qWBmFucoxeYFXUkjatLf6RMx6Wmc");
+  const genAI = new GoogleGenerativeAI(process.env.REACT_APP_API);
   const model = genAI.getGenerativeModel({ model: "gemini-1.0-pro"});
     // console.log(parsedData);
       let text
