@@ -44,7 +44,7 @@ function MyComponent({section,prompt,title}) {
       const optionsStructure = "each option should have an action and a description"
       const pass = "each option should have a pass value that range is 5-15"
       const skill = " add a dnd skill that will be used in this option"
-      const reward = "Include a reward to the return"
+      const reward = "Include a reward to the return that has what happens on success"
       let finalPromt = json+dm+prompt+optionsStructure+skill+pass+savedData
       
     if(section.includes("quest")){
