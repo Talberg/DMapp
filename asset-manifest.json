@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DMapp/adventure/static/css/main.9c67f773.css",
-    "main.js": "/DMapp/adventure/static/js/main.cb8a2eba.js",
+    "main.js": "/DMapp/adventure/static/js/main.0e5f211b.js",
     "static/js/453.68693753.chunk.js": "/DMapp/adventure/static/js/453.68693753.chunk.js",
     "static/media/logo.svg": "/DMapp/adventure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/DMapp/adventure/index.html",
     "main.9c67f773.css.map": "/DMapp/adventure/static/css/main.9c67f773.css.map",
-    "main.cb8a2eba.js.map": "/DMapp/adventure/static/js/main.cb8a2eba.js.map",
+    "main.0e5f211b.js.map": "/DMapp/adventure/static/js/main.0e5f211b.js.map",
     "453.68693753.chunk.js.map": "/DMapp/adventure/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c67f773.css",
-    "static/js/main.cb8a2eba.js"
+    "static/js/main.0e5f211b.js"
   ]
 }
