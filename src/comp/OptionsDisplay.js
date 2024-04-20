@@ -1,17 +1,14 @@
-import React from 'react';
-import Title from './title';
+import React from "react";
+import Title from "./title";
 
-const ButtonList = ( {obj,keys} ) => {
-    // console.log(obj, keys)
-
-
+const ButtonList = ({ setQuestDone, obj, keys }) => {
+  console.log(" setQuestDone buttonlist: ", setQuestDone);
 
   return (
     <div>
-     {keys.map((item, index) => (
-      <Title obj={obj} title={item} />
-    ))}
-    
+      {keys.map((item, index) => (
+        <Title setQuestDone={setQuestDone} obj={obj} title={item} />
+      ))}
     </div>
   );
 };
